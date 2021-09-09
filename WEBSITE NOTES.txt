@@ -15,7 +15,14 @@ X    d. Quality Policy
     c. Freshmen/Applicants' FAQs
     d. Scholarship Grants
 5. Academics
-    a. (list of colleges and programs)
+    a. College of Architecture
+    b. College of Allied Health
+    c. College of Business and Accountancy
+    d. College of Computing and Information Technologies
+    e. College of Dentistry
+    f. College of Education, Arts, and Sciences
+    g. College of Engineering
+    h. College of Tourism and Hospitality Management
 6. Research
 7. Community Extension
 X. 8. Careers  
