@@ -1,0 +1,26 @@
+WEBSITE NOTES
+
+## Pages
+1. Homepage
+2. About NU
+    a. History
+    b. Mission and Vision
+    c. Core Values
+X    d. Quality Policy 
+    e. Contact Us
+3. News
+4. Admissions
+    a. Application Procedures
+    b. Entrance Requirements
+    c. Freshmen/Applicants' FAQs
+    d. Scholarship Grants
+5. Academics
+    a. (list of colleges and programs)
+6. Research
+7. Community Extension
+X. 8. Careers  
+9. Data Protection Office
+    a. Privacy Statement
+    b. Privacy Policy
+    c. Terms of Service
+X    d. Contact Us
