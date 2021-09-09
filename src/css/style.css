@@ -3,6 +3,7 @@
 :root {
   --main-blue: rgb(48, 64, 136);
   --dark-blue: rgb(25, 32, 66);
+  --light-blue: rgb(239, 242, 255);
   --main-yellow: rgb(248, 209, 18);
   --text-black: rgb(61, 61, 61);
 }
@@ -19,6 +20,11 @@ h6,
 p,
 a {
   font-family: "Roboto", sans-serif;
+}
+
+h4 {
+  font-weight: 700;
+  color: var(--main-blue);
 }
 
 a {
@@ -170,6 +176,74 @@ ul {
 }
 
 /*--------------------------------------------------------------
+# Community Portals Section
+--------------------------------------------------------------*/
+.portals-links {
+  height: 200px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.hover-reveal-overlay {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 0.25rem;
+  height: 100%;
+  width: 100%;  
+  font-size: 1.5rem;
+  color: #fff;
+  opacity: 0;
+  -webkit-transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -o-transition: opacity .25s ease-in-out;
+  transition: opacity .25s ease-in-out;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+.hover-reveal-overlay:hover {
+  opacity: 1;
+}
+
+
+#online-app {
+  background-image: url(../img/public_nuis.jpg);
+}
+
+#ms365 {
+  background-image: url(../img/ms365.jpg);
+}
+
+#online-payment {
+  background-image: url(../img/onlinepayment.jpg);
+}
+
+/*--------------------------------------------------------------
+# News and Events Section
+--------------------------------------------------------------*/
+.news-events {
+  background-color: var(--light-blue);
+}
+
+/*--------------------------------------------------------------
+# Microsoft Section
+--------------------------------------------------------------*/
+.microsoft h4 {
+  font-size: 2rem;
+}
+
+.microsoft h4.text-black {
+  color: var(--text-black);
+}
+
+.microsoft img {
+  height: 300px;
+}
+
+
+/*--------------------------------------------------------------
 # FOOTER
 --------------------------------------------------------------*/
 footer hr {
@@ -201,7 +275,7 @@ footer #logo {
 
 .footer-socials img {
   height: 30px;
-  }
+}
 
 .footer-pages {
   background-color: var(--dark-blue);
@@ -213,9 +287,8 @@ footer #logo {
 }
 
 .footer-pages a:hover {
-  color: var(--main-yellow)
+  color: var(--main-yellow);
 }
-
 
 /*--------------------------------------------------------------
 # MEDIA QUERIES
@@ -226,8 +299,19 @@ footer #logo {
 @media only screen and (max-width: 600px) {
   .hero-text {
   }
-}
 
+  footer #logo {
+    height: 40px;
+  }
+
+  .footer-socials span {
+    font-size: 1.5rem;
+  }
+
+  .microsoft img {
+    height: 200px;
+  }
+}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 
