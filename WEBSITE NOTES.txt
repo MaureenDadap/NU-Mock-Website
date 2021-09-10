@@ -31,3 +31,6 @@ X. 8. Careers
     b. Privacy Policy
     c. Terms of Service
 X    d. Contact Us
+
+18 html files (each are at least 300 lines long)
+1 css file 
