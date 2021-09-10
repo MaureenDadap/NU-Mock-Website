@@ -436,11 +436,12 @@ footer #logo {
 /* Extra small devices (phones, 600px and down) */
 
 @media only screen and (max-width: 600px) {
-  .hero-text {
-  }
-
   .header hr {
     width: 200px;
+  }
+
+  .microsoft img {
+    height: 200px;
   }
 
   footer #logo {
@@ -449,10 +450,6 @@ footer #logo {
 
   .footer-socials span {
     font-size: 1.5rem;
-  }
-
-  .microsoft img {
-    height: 200px;
   }
 }
 
