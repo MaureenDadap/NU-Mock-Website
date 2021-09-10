@@ -114,9 +114,9 @@ main {
 }
 
 .navbar.homepage {
+  box-shadow: none;
   background-color: transparent !important;
   position: fixed;
-  box-shadow: none;
   width: auto;
 }
 
@@ -377,7 +377,8 @@ main {
   text-decoration: underline;
 }
 
-.privacy ul, .terms ul {
+.privacy ul,
+.terms ul {
   list-style: square;
 }
 
@@ -450,6 +451,12 @@ footer #logo {
 
   .footer-socials span {
     font-size: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .navbar.homepage {
+    width: 100%;
   }
 }
 
