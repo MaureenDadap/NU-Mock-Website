@@ -193,6 +193,58 @@ ul {
 }
 
 /*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+.header {
+  width: 100%;
+  background: var(--main-blue);
+  position: relative;
+  z-index: 1;
+}
+
+.header h1 {
+  font-weight: 300;
+  color: #fff;
+}
+
+.header hr  {
+  color: var(--main-yellow);
+  height: 3px;
+  width: 400px;
+  opacity: 1;
+}
+
+/*--------------------------------------------------------------
+# Main / General
+--------------------------------------------------------------*/
+main {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.blockquote {
+  border-left: 3px solid var(--main-yellow);
+  padding-left: 10px;
+}
+
+.sidebar {
+  border-left: 1px solid var(--custom-gray);
+}
+
+.sidebar a {
+  color: #000;
+  font-weight: bold;
+}
+
+.sidebar a:hover {
+  color: var(--dark-yellow);
+}
+
+.sidebar h4 {
+  border-bottom: 5px solid var(--main-blue);
+}
+
+/*--------------------------------------------------------------
 # Community Portals Section
 --------------------------------------------------------------*/
 .portals-links {
@@ -365,6 +417,10 @@ footer #logo {
   .hero-text {
   }
 
+  .header hr  {
+    width: 200px;
+  }
+
   footer #logo {
     height: 40px;
   }
@@ -376,6 +432,7 @@ footer #logo {
   .microsoft img {
     height: 200px;
   }
+
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
